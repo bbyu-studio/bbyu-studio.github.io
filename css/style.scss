@@ -15,12 +15,13 @@
 
 @import '../_sass/bootstrap';
 @import '../_sass/mixins';
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
-%merriweather { font-family: 'Merriweather', serif; }
+%merriweather { font-family: 'Nanum Gothic', serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
