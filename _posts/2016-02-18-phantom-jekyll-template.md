@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'Phantom'
-date: 2016-02-20 21:15:00
+date: 2016-02-20 21:15:00 +0700
 categories: development design
 tags: Jekyll Sass Bootstrap
 featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
