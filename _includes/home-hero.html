@@ -10,13 +10,15 @@
 
           {% if site.title != '' %}
             <h1 class="text-center"><img class="img-maintitle" src="/img/mainicon.gif" style="width: 30%;"><br>
-              {{site.title}}</h1>
+                <img class="img-maintitle" src="/img/mainstudiologo.png" style="width: 60%;">
+            </h1>
+              <!--{{site.title}}</h1>-->
           {% endif %}
 
           {% if site.description != '' or site.enable_contact == true %}
           <p class="text-center">
             {% if site.description != '' %}
-            {{site.description}}
+            {{site.description}}<br>카카오 이모티콘입니다.
             {% endif %}
 
             {% if site.enable_contact == true %}
@@ -29,13 +31,18 @@
           <div class="hero-buttons">
 
             {% if site.twitter_username != '' %}
-              <a href="https://e.kakao.com/t/starfish-motions-and-emotions"><button class="btn btn-default btn-lg"><i class="fa fa-solid fa-star"></i>끼쟁이 쁄가사리</button></a>
+              <a href="https://e.kakao.com/t/starfish-motions-and-emotions"><button class="btn btn-default btn-lg">
+                  <img class="img-maintitle" src="/img/BB1.png"  style="width:40px;height40px;">끼쟁이 쁄가사리
+                  </button></a>
+              <!--<i class="fa fa-solid fa-star"></i>-->
             {% endif %}
             {% if site.github_username != '' %}
-              <a href="https://e.kakao.com/t/starfish-motions-and-emotions-2"><button class="btn btn-default btn-lg"><i class="fa fa-solid fa-star"></i>끼쟁이 쁄가사리2</button></a>
+              <a href="https://e.kakao.com/t/starfish-motions-and-emotions-2"><button class="btn btn-default btn-lg">
+                  <img class="img-maintitle" src="/img/BB2.png"  style="width:40px;height40px;">끼쟁이 쁄가사리2</button></a>
             {% endif %}
             {% if site.medium_username != '' %}
-              <a href="https://e.kakao.com/t/sea-anemone-boy"><button class="btn btn-default btn-lg"><i class="fa fa-solid fa-paw"></i>말미잘 보이</button></a>
+              <a href="https://e.kakao.com/t/sea-anemone-boy"><button class="btn btn-default btn-lg">
+                  <img class="img-maintitle" src="/img/MA1.png"  style="width:40px;height40px;"> 말미잘 보이</button></a>
             {% endif %}
 
           </div>
