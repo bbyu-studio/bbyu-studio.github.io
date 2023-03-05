@@ -67,7 +67,7 @@ img {
 
 button.btn, input.btn {
   padding: 12px 35px;
-  margin: 2em 0.5em;
+  margin: 0.5em 0.5em;
   border: solid 1px #d5e0e7;
   border-radius: 4px;
   color: #2E4453;
@@ -145,6 +145,7 @@ button.btn, input.btn {
     margin: 1em 0 2em 0;
   }
   .hero-buttons {
+    line-height: 10%;
     margin: 0 auto;
     display: table;
     i {
