@@ -4,7 +4,7 @@
   <p class="excerpt">{{ post.lead_text }}</p>
 
   {% if post.project_link != empty %}
-  <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
+  <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><img class="img-maintitle" src="{{post.button_img}}"  style="width:40px;height40px;">{{post.button_text}}</button></a>
   {% endif %}
 
   {% if post.tags != empty %}
@@ -23,3 +23,7 @@
   </div>
   {% endif %} -->
 </div>
+
+
+
+  <!-- <i class="fa fa-{{post.button_icon}} fa-lg"></i> -->
