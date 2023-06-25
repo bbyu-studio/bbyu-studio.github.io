@@ -9,8 +9,8 @@
         <div class="hero-content">
 
           {% if site.title != '' %}
-            <h1 class="text-center"><img class="img-maintitle" src="/img/mainicon.gif" style="width: 30%;"><br>
-                <img class="img-maintitle" src="/img/mainstudiologo.png" style="width: 60%;">
+            <h1 class="text-center"><img class="img-maintitle" src="/img/mainicon.gif" style="width: 50%;">
+                <!--<br>                <img class="img-maintitle" src="/img/mainstudiologo.png" style="width: 60%;">-->
             </h1>
               <!--{{site.title}}</h1>-->
           {% endif %}
@@ -30,22 +30,18 @@
 
           <div class="hero-buttons">
 
-            {% if site.bbyul1_usernema != '' %}
-              <a href="https://e.kakao.com/t/starfish-motions-and-emotions"><button class="btn btn-default btn-lg">
-                  <img class="img-maintitle" src="/img/BB1.png"  style="width:40px;height40px;">끼쟁이 쁄가사리
-                  </button></a>
-              <!--<i class="fa fa-solid fa-star"></i>-->
+           
+            {% if site.bbyu_kakao_emoticon_username != '' %}
+              <a href="https://e.kakao.com/search?q=%EC%80%BC"><button class="btn btn-default btn-lg">
+                   카카오 이모티콘 emoticon </button></a>
             {% endif %}
               <br>
-            {% if site.bbyul2_username != '' %}
-              <a href="https://e.kakao.com/t/starfish-motions-and-emotions-2"><button class="btn btn-default btn-lg">
-                  <img class="img-maintitle" src="/img/BB2.png"  style="width:40px;height40px;">끼쟁이 쁄가사리2</button></a>
+            {% if site.bbyustudio_board:  != '' %}
+              <a href="https://forms.gle/TJoihUvPoCNLp1Lt9"><button class="btn btn-default btn-lg">
+                   쀼스튜디오 메세지/건의 함 </button></a>
             {% endif %}
               <br>
-            {% if site.malmizalboy1_username != '' %}
-              <a href="https://e.kakao.com/t/sea-anemone-boy"><button class="btn btn-default btn-lg">
-                  <img class="img-maintitle" src="/img/MA1.png"  style="width:40px;height40px;"> 말미잘 보이</button></a>
-            {% endif %}
+              
 
           </div>
 

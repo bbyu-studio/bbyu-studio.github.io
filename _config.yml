@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "쀼 스튜디오"
 email: 'krk57@naver.com'
-description: "쀼 스튜디오에서 만든 카카오 이모티콘"
+description: "쀼 스튜디오"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bbyu-studio.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'jamigibbs'
@@ -24,6 +24,8 @@ medium_username: 'blog.jamigibbs.com'
 bbyul1_username: '끼쟁이 쁄가사리'
 bbyul2_username: '끼쟁이 쁄가사리2'
 malmizalboy1_username: '말미잘 보이'
+bbyu_kakao_emoticon_username: '카카오 이모티콘 emoticon'
+bbyustudio_board: '쀼스튜디오 메세지/건의 함'
 
 
 # Build settings
